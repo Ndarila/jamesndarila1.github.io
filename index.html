@@ -2,6 +2,56 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+---
 layout: home
+title: "James Ndarila"
 author_profile: true
 ---
+
+<!-- Profile section -->
+<section>
+  <h2>Welcome!</h2>
+  <p>Hi, I’m <strong>James Ndarila</strong> — an ICT specialist and <strong>Data Enthusiast</strong> passionate about digital literacy, analytics, and empowering communities with technology.</p>
+
+  <p>Currently advancing my skills in data and AI through the <strong>Cyber Shujaa Programme</strong>. Check out my work and feel free to connect!</p>
+
+  <p>
+    📄 <a href="/assets/pdfs/James-Ndarila-Resume.pdf" target="_blank" class="btn btn--primary">Download My Resume (PDF)</a>
+  </p>
+</section>
+
+<!-- Projects Section -->
+<section>
+  <h2>Featured Projects</h2>
+  <ul>
+    <li>
+      <img src="/assets/images/hotel-dashboard.jpg" alt="Hotel Dashboard" style="width: 300px;">
+      <p><strong>Hotel Management Dashboard</strong> – Power BI project for business insights.</p>
+    </li>
+    <li>
+      <img src="/assets/images/netflix-project.jpg" alt="Netflix Analysis" style="width: 300px;">
+      <p><strong>Netflix Data Wrangling</strong> – Cleaned and visualized Netflix dataset with Python and Pandas.</p>
+    </li>
+    <li>
+      <img src="/assets/images/titanic-analysis.jpg" alt="Titanic EDA" style="width: 300px;">
+      <p><strong>Titanic EDA</strong> – Performed exploratory analysis on Titanic dataset.</p>
+    </li>
+  </ul>
+</section>
+
+<!-- Blog Section -->
+<section>
+  <h2>Latest Posts</h2>
+  <ul>
+    {% for post in site.posts limit:3 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <br />
+        <small>{{ post.date | date: "%B %-d, %Y" }}</small><br />
+        <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="/blog/" class="btn btn--inverse">View All Posts</a>
+</section>
+
