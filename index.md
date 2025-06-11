@@ -6,9 +6,9 @@ author_profile: true
 
 ## Welcome!
 
-Hi, I’m **James Ndarila** — an ICT specialist and Data Enthusiast passionate about digital literacy, analytics, and empowering communities with technology.
+Hi, I’m **James Ndarila** — an ICT specialist and data enthusiast passionate about digital literacy, analytics, and empowering communities with technology.
 
-Currently advancing my skills in data and AI through the Cyber Shujaa Programme. Check out my work and feel free to connect!
+Currently advancing my skills in Data and AI through the **Cyber Shujaa Programme**. Check out my work and feel free to connect!
 
 📄 [Download My Resume (PDF)](/assets/files/James-Ndarila-CV.pdf)
 
@@ -18,12 +18,16 @@ Currently advancing my skills in data and AI through the Cyber Shujaa Programme.
 
 - **Hotel Dashboard** – Power BI project for hotel business insights.
 - **Netflix Analysis** – Cleaned and visualized Netflix dataset with Python.
-- **Titanic EDA** – Performed exploratory data analysis on Titanic dataset.
+- **Titanic EDA** – Performed exploratory data analysis on the Titanic dataset.
 
 ---
 
 ## 📝 Latest Posts
 
+{% if site.posts.size > 0 %}
 {% for post in site.posts limit:5 %}
 - [{{ post.title }}]({{ post.url | relative_url }}) – {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
+{% else %}
+_No recent posts yet. Stay tuned!_
+{% endif %}
