@@ -27,4 +27,7 @@ Developed an interactive business intelligence dashboard using Power BI to analy
 
 ---
 
+## Resume
+[Download My Resume (PDF)](/assets/pdfs/James-Ndarila-Resume.pdf)
 
+---
