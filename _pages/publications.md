@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-## Featured Publications & Projects
+## 📚 Featured Publications & Projects
 
 ### 📊 Netflix Data Wrangling & Analysis
 A comprehensive project where I cleaned, transformed, and analyzed Netflix viewing data using Python (Pandas, NumPy) and visualized insights with Matplotlib and Seaborn.  
@@ -27,8 +27,6 @@ Developed an interactive dashboard to analyze hotel bookings, revenue, and custo
 
 ---
 
-## 📄 Curriculum Vitae
-
-You can download my latest resume below:
-
+## 📄 Download My Resume
+You can download my up-to-date CV below:  
 [📄 Download My Resume (PDF)](/assets/files/James-Ndarila-CV.pdf)
