@@ -25,5 +25,5 @@ Currently advancing my skills in data and AI through the Cyber Shujaa Programme.
 ## 📝 Latest Posts
 
 {% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) – {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
+
+{{ post.date | date: "%B %d, %Y" }}
