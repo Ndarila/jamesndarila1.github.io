@@ -29,4 +29,4 @@ Developed an interactive dashboard to analyze hotel bookings, revenue, and custo
 
 ## 📄 Download My Resume
 You can download my up-to-date CV below:  
-[📄 Download My Resume (PDF)](/assets/files/James-Ndarila-CV.pdf)
+[📄 Download My Resume (PDF)](/assets/assets/files/James-Ndarila-CV.pdf)
