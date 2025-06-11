@@ -1,29 +1,32 @@
 ---
-layout: home
-title: "James Ndarila"
+title: "Publications"
+permalink: /publications/
+layout: single
 author_profile: true
 ---
 
-## Welcome!
+## 📚 Featured Publications & Projects
 
-Hi, I’m **James Ndarila** — an ICT specialist and Data Enthusiast passionate about digital literacy, analytics, and empowering communities with technology.
-
-Currently advancing my skills in data and AI through the Cyber Shujaa Programme. Check out my work and feel free to connect!
-
-📄 [Download My Resume (PDF)](/assets/files/James-Ndarila-CV.pdf)
-
----
-
-## 🔧 Featured Projects
-
-- **Hotel Dashboard** – Power BI project for hotel business insights.
-- **Netflix Analysis** – Cleaned and visualized Netflix dataset with Python.
-- **Titanic EDA** – Performed exploratory data analysis on Titanic dataset.
+### 📊 Netflix Data Wrangling & Analysis
+A comprehensive project where I cleaned, transformed, and analyzed Netflix viewing data using Python (Pandas, NumPy) and visualized insights with Matplotlib and Seaborn.  
+🔗 [View Project](#)  
+![Netflix Project Screenshot](/assets/images/netflix_project.jpg)
 
 ---
 
-## 📝 Latest Posts
+### 🚢 Titanic Survival Prediction – Exploratory Data Analysis
+Performed EDA on Titanic dataset to uncover insights about survival rates and built basic machine learning models to predict survival.  
+🔗 [View Notebook](#)  
+![Titanic Project Screenshot](/assets/images/titanic_analysis.jpg)
 
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) – {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
+---
+
+### 🏨 Hotel Management Dashboard using Power BI
+Developed an interactive dashboard to analyze hotel bookings, revenue, and customer trends using Power BI.  
+![Hotel Dashboard Screenshot](/assets/images/hotel_dashboard.jpg)
+
+---
+
+## 📄 Download My Resume
+You can download my up-to-date CV below:  
+[📄 Download My Resume (PDF)](/assets/assets/files/James-Ndarila-CV.pdf)
