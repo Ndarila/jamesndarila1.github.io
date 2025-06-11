@@ -3,12 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
----
 layout: home
 title: "James Ndarila"
 author_profile: true
 ---
-
 <section>
   <h2>Welcome!</h2>
   <p>Hi, I’m <strong>James Ndarila</strong> — an ICT specialist and <strong>Data Enthusiast</strong> passionate about digital literacy, analytics, and empowering communities with technology.</p>
