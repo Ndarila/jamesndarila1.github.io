@@ -10,7 +10,7 @@ Hi, I’m **James Ndarila** — an ICT specialist and Data Enthusiast passionate
 
 Currently advancing my skills in **Data and AI** through the Cyber Shujaa Programme. Check out my work and feel free to connect!
 
-📄 [Download My Resume (PDF)](/assets/files/James-Ndarila-CV.pdf)
+📄 [Download My Resume (PDF)](/assets/files/assets/James-Ndarila-CV.pdf)
 
 ---
 
